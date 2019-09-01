@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+p {
+  display: inline-block;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Special Elite", cursive;
+}
+
+#type-writer {
+  border-style: dotted;
+}
+main div {
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  resize: both;
+  overflow: auto;
+}
